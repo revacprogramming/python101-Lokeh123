@@ -1,6 +1,6 @@
 hrs = input("Enter Hours:")
 h = float(hrs)
-rate=input("enter rate:")
+rate=input ("enter rate:")
 f=float(rate)
 if h>40:
     b=h*f
