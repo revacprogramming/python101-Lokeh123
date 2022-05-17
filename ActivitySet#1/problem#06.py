@@ -1,7 +1,7 @@
 largest = None
 smallest = None
 while True:
-    num = input("Enter a number: ")
+    num = input ("Enter a number: ")
     if num == "done":
         break
     try:
@@ -9,7 +9,7 @@ while True:
         if largest is None:
             largest=i
         elif largest >i:
-            largest=largest
+            largest =largest
         else:
             largest=i
         if smallest is None:
