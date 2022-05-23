@@ -1,5 +1,5 @@
 name = raw_input("Enter file:")
-handle = open(name)
+handle = open (name)
 d=dict()
 for line in handle:
     if not line.startswith("From "): 
