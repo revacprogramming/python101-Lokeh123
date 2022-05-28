@@ -5,7 +5,7 @@ while True:
     if num == "done":
         break
     try:
-        i=int(num)
+        i=int (num)
         if largest is None:
             largest=i
         elif largest >i:
