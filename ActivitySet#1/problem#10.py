@@ -6,7 +6,7 @@ counts=dict()
 for line in handle:
     if not line.startswith("From:"):
         continue
-    words=line.split()
+    words=line.  split()
     y=(words[1:])
     for word in y:
         counts[word]=counts.get(word,0)+1
