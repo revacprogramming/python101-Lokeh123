@@ -3,7 +3,7 @@ fh = open(fname)
 lst = list()                       
 for line in fh:                    
     word= line.split()    
-    for element in word:             
+    for eleme nt in word:             
         if element in lst:         
             continue              
         else :                     
