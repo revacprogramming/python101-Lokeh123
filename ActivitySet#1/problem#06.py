@@ -1,4 +1,4 @@
-largest = None
+glargest = None
 smallest = None
 while True:
     num = input ("Enter a number: ")
